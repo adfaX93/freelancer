@@ -26,6 +26,20 @@ body{
 .nav-bg{
     background-color: var(--secundario);
 }
-.navegacion-principal{
+.navegacion-principal{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
     
+}
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
