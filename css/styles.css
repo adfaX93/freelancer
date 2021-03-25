@@ -19,6 +19,14 @@ html{
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
+@media (min-width: 768px){
+    .servicio,
+    .navegacion-principal,
+    .formulario{
+    scroll-snap-align: none;
+    scroll-snap-stop: none;
+}
+}
 *, *:before, *:after {
     box-sizing: inherit;
 }
